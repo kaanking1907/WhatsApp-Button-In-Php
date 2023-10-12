@@ -10,4 +10,9 @@
         s.onload = function () { WhWidgetsendButton.init(host, proto, options); };
         var x = document.getElementByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
+    function btnClick() {
+        const linkElement = document.createElement("a")
+        linkElement.href = 'tel:+123456789'
+        linkElement.click()
+    }
 </script>
