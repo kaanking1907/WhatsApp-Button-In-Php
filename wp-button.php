@@ -1,5 +1,5 @@
-‹script type="text/javascript"›
-    (function ()) {
+<script type="text/javascript">
+    (function () {
         var options = {
             whatsapp: "+905*********",
             call_to_action: "Nasıl yardımcı olabilirim?",
